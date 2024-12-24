@@ -37,7 +37,7 @@ export const Providers = nestProviders()
   .build()
 ```
 
-And it works just as well as the traditional investing of providers in each other.
+And it works just as well as the traditional nesting of providers in each other.
 
 When you add new providers, you will not lose children. And it is not difficult to change the order of providers using this approach.
 
